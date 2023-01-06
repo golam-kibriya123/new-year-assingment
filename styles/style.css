@@ -43,3 +43,49 @@ header {
     font-size: 20px;
     border-radius: 5px;
 }
+
+/* failure */
+.my-failures {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.failure-img {
+
+}
+
+.failure-img img {
+    margin-left: 50px;
+    height: 550px;
+}
+
+.failure-text {
+    padding: 150px 50px 0 100px;
+    width: 40%;
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.description {
+    padding: 35px 0 20px 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.failure-items li {
+    font-weight: 400;
+    font-size: 14px;
+    list-style: none;
+}
+
+.failure-items li span {
+    color: green;
+    font-weight: 100;
+}
