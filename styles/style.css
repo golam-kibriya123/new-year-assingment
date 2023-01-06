@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,9 +54,7 @@ header {
     justify-content: space-around;
 }
 
-.failure-img {
-
-}
+.failure-img {}
 
 .failure-img img {
     margin-left: 50px;
