@@ -13,6 +13,10 @@ body {
 
 }
 
+main {
+    width: 85%;
+}
+
 header {
     width: 100%;
     background-image: url(../images/banner/banner1.png);
@@ -44,7 +48,6 @@ header {
     background-color: #F15B22;
     border: none;
     color: #fff;
-    font-weight: 600;
     font-size: 20px;
     border-radius: 5px;
 }
@@ -56,7 +59,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: yellow;
 }
 
 .failure-img {}
@@ -92,4 +94,68 @@ header {
 .failure-items li span {
     color: green;
     font-weight: 100;
+}
+
+/* my-plans */
+.my-plans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    margin: 40px 0px 0 0px;
+}
+
+.plans .plan {
+    padding: 40px;
+    margin: 5px;
+}
+
+.plans .plan img {
+    height: 80px;
+}
+
+.plans .plan .section-title {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.plans .plan .description {
+    padding-top: 10px;
+}
+
+/* mindset */
+.mindset {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.mindset-content {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #cd5221d3 10%, rgba(241, 91, 34, 0) 100%);
+    padding: 60px 0 0 64px;
+
+}
+
+.mindset-content>.btn {
+    margin-top: 30px;
+    color: #F15B22;
+    background-color: #fff;
+
+
 }
